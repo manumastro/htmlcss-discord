@@ -1,12 +1,8 @@
+/* UTILITIES */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-header{
-  height: 200px;
-  background-color: #3161e0;
 }
 
 .container{
@@ -18,13 +14,93 @@ header{
   background-color: #5776cc;
 }
 
-.container.container-header{
-  height: 50%;
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
+/* UTILITIES */
+
+/* HEADER */
+header{
+  height: 200px;
+  background-color: #3161e0;
+}
+
+.container.container-header{ /* eccezione dimensione container header */
+  height: 50%;
+}
+/* HEADER */
+
+
+
+/* JUMBOTRON */
 .jumbotron{
+  position: relative;
   background-image: url('img/jumbo.png');
   background-size: cover;
   background-position: center;
   height: 535px;
 }
+
+.jumbotron .jumbo-box{ /* posizionamento del box interno al jumbotron */
+  position: absolute;
+  height: 300px;
+  width: 800px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+}
+/* JUMBOTRON */
+
+/* MAIN */
+section.grey{  /* section con colore di sfondo grigio */
+  background-color: #f6f6f6;
+}
+.container.container-main{  /* eccezione del container del main */
+  margin: 20px auto;
+  height: 750px;
+  background-color: blue;
+}
+
+.col{
+  margin: 37.5px;
+}
+
+.col.col-left{
+  float: left;
+  width: 45%;
+  height: 90%;
+  background-color: black;
+}
+
+.col.col-right{
+  float: right;
+  width: 45%;
+  height: 90%;
+  background-color: red;
+}
+
+/* istruzioni per la section prima del footer */
+.container.container-call{
+  height: 1000px;
+}
+
+.row{
+  margin: 10px auto;
+  width: 90%;
+  height: 20%;
+  background-color: black;
+}
+
+.row.row-center{
+  height: 58%;
+}
+/* MAIN */
+
+
+/* FOOTER */
+
+/* FOOTER */
