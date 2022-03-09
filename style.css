@@ -11,7 +11,7 @@ body{
 
 .container{
   width: 80%;
-  max-width: 1350px;
+  max-width: 1225px;
   min-width: 600px;
   height: 100%;
   margin: 0 auto;
@@ -23,6 +23,28 @@ body{
     display: table;
 }
 
+.description h2{
+  font-size: 47px;
+  padding-bottom: 20px;
+}
+
+.description p{
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.fa-solid{
+  padding-right: 18px;
+}
+
+button{
+  font-size: 19px;
+  margin: 0 15px;
+  padding: 15px 30px;
+  border-radius: 28px;
+  cursor: pointer;
+  border-style: none;
+}
 /* UTILITIES */
 
 /* HEADER */
@@ -110,19 +132,6 @@ li.login a{
   color: black;
 }
 
-.fa-solid{
-  padding-right: 18px;
-}
-
-.buttons button{
-  font-size: 19px;
-  margin: 0 15px;
-  padding: 15px 30px;
-  border-radius: 28px;
-  cursor: pointer;
-  border-style: none;
-}
-
 #black-button{
   background-color: black;
   color: white;
@@ -146,15 +155,7 @@ section.grey{  /* section con colore di sfondo grigio */
   padding-top: 146px;
 }
 
-.col .description h2{
-  font-size: 47px;
-  padding-bottom: 20px;
-}
 
-.col .description p{
-  font-size: 20px;
-  line-height: 27px;
-}
 
 /* WHITE SECTION */
 .white .col.col-left{
@@ -200,19 +201,52 @@ section.grey{  /* section con colore di sfondo grigio */
 }
 /* GREY SECTION */
 
+
 /* istruzioni per la section prima del footer */
 .container.container-call{
-  height: 1000px;
+  height: 1250px;
 }
 
 .row{
   margin: 10px auto;
   height: 20%;
-  background-color: black;
 }
 
+.row.row-sup{
+  width: 86%;
+  padding-top: 120px;
+}
 .row.row-center{
+  position: relative;
   height: 58%;
+}
+
+.row.row-center img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row .description{
+  text-align: center;
+}
+
+.row.row-inf{
+  text-align: center;
+}
+
+.row.row-inf .description p{
+  font-size: 27px;
+  font-weight: 600;
+
+}
+
+#scarica{
+  margin-top: 40px;
+  background-color: #8ea1e1;
+  color: white;
 }
 /* MAIN */
 
