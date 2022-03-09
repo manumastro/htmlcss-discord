@@ -143,7 +143,7 @@ section.grey{  /* section con colore di sfondo grigio */
 }
 
 .col .description{
-  padding: 146px 110px 0 0;
+  padding-top: 146px;
 }
 
 .col .description h2{
@@ -157,20 +157,20 @@ section.grey{  /* section con colore di sfondo grigio */
 }
 
 /* WHITE SECTION */
-.col.col-left{
+.white .col.col-left{
   position: relative;
   float: left;
   width: 65%;
   height: 90%;
 }
-.col.col-left img{
+.white .col.col-left img{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.col.col-right{
+.white .col.col-right{
   position: relative;
   float: right;
   width: 35%;
@@ -184,9 +184,8 @@ section.grey{  /* section con colore di sfondo grigio */
   float: left;
   width: 35%;
   height: 90%;
-  background-color: black;
 }
-.grey .col.col-left img{
+.grey .col.col-right img{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -198,7 +197,6 @@ section.grey{  /* section con colore di sfondo grigio */
   float: right;
   width: 65%;
   height: 90%;
-  background-color: red;
 }
 /* GREY SECTION */
 
