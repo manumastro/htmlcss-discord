@@ -37,6 +37,12 @@ body{
   padding-right: 18px;
 }
 
+.fa-solid.fa-chevron-down{
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+}
+
 button{
   font-size: 19px;
   margin: 0 15px;
@@ -81,7 +87,7 @@ nav ul li a{
   float: right;
 }
 
-li.login a{
+.login a{
   color: black;
   padding: 12px;
   background-color: white;
@@ -254,19 +260,78 @@ section.grey{  /* section con colore di sfondo grigio */
 /* FOOTER */
 footer{
   height: 700px;
+  background-color: #23272a;
 }
 
-.box-foot{
-  margin-top: 20px;
-}
 
 .box-foot.box-sup{
-  height: 70%;
-  background-color: red;
+  height: 72%;
+  padding-top: 10%;
 }
 
-.box-foot.box-inf{
-  height: 30%;
-  background-color: black;
+
+/* lista */
+
+.box-foot .footer-col{
+  float: left;
+  width: 18.75%;
+}
+.box-foot .footer-col.first-col{
+  width: 25%;
+}
+
+.box-foot .footer-col ul li{
+  list-style: none;
+}
+
+.box-foot .footer-col ul li a{
+  color: white;
+  text-decoration: none;
+  line-height: 32px;
+}
+.box-foot .footer-col .blue-li{
+  font-weight: 600;
+  color: #7188d9;
+}
+
+.box-foot .footer-col .blue-li.bigger{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box-foot .footer-col img{
+  padding-top: 25px;
+  width: 25px;
+}
+
+.box-foot .footer-col #italiano{
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.box-foot .footer-col #social{
+  font-size: 20px;
+}
+.fa-brands{
+  margin-top: 20px;
+  padding-right: 20px;
+}
+/* lista */
+.logo-bottom{
+  position: relative;
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #434f72;
+}
+.logo-bottom img{
+  position: absolute;
+  left: 0;
+}
+.logo-bottom .login{
+  font-size: 15px;
+  padding:10px;
+  background-color: #8ea1e1;
+  color: white;
 }
 /* FOOTER */
