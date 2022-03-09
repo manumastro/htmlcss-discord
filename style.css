@@ -90,7 +90,6 @@ section.grey{  /* section con colore di sfondo grigio */
 
 .row{
   margin: 10px auto;
-  width: 90%;
   height: 20%;
   background-color: black;
 }
@@ -102,5 +101,21 @@ section.grey{  /* section con colore di sfondo grigio */
 
 
 /* FOOTER */
+footer{
+  height: 700px;
+}
 
+.box-foot{
+  margin-top: 20px;
+}
+
+.box-foot.box-sup{
+  height: 70%;
+  background-color: red;
+}
+
+.box-foot.box-inf{
+  height: 30%;
+  background-color: black;
+}
 /* FOOTER */
